@@ -1,0 +1,120 @@
+.general-container {
+    background-color: rgb(46, 45, 45);
+    min-height: 100vh;
+}
+.main-section-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.camera-section {
+    width: 320px;
+    height: 100px;
+    background-color: aquamarine;
+}
+.camera-section:nth-child(2) {
+    border-top: 13px solid rgb(48, 155, 118);
+    border-bottom: 13px solid rgb(48, 155, 118);
+}
+.camera-section:last-child {
+    background-color: #fff;
+    height: 80px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.camera-section:first-child {
+    background-color:#fff;
+    height: 80px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    position: relative;
+}
+.camera-section-item::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 29px;
+    width: 41px;
+    height: 30px;
+    border-radius: 40px;
+    background-color:rgb(35, 55, 74);
+    box-shadow: 0px 5px 9px rgb(27, 25, 25);
+}
+.camera-section-item::after {
+    content: '';
+    top: 27px;
+    left: 33px;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 40px;
+    background-color: #f89409;
+}
+.first-circle {
+    background-color: #a14004;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 10;
+    top: -35px;
+    left: 22%;
+    box-shadow: -4px 7px 9px rgb(54, 51, 51);
+}
+.second-circle {
+    background-color: black;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 20;
+    top: 20px;
+    left: 20px;
+}
+.third-circle {
+    background-color: rgb(71, 70, 70);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 30;
+    top: 25px;
+    left: 25px;
+}
+.fourth-circle {
+    background-color: rgb(33, 33, 33);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 40;
+    top: 20px;
+    left: 20px;
+}
+.fivth-circle {
+    background-color: rgb(16, 16, 16);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 50;
+    top: 10px;
+    left: 10px;
+}
+.sixth-circle {
+    background-color: rgb(157, 153, 153);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 50;
+    top: 10px;
+    left: 10px;
+}
